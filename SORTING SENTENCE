@@ -1,0 +1,5 @@
+a=input("enter the sentence")
+sorted_sentence=sorted(a)
+sentence=''.join(sorted_sentence)
+print("original sentence is:",a)
+print("sorted sentence is: ",sentence)
